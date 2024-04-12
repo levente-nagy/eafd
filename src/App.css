@@ -72,6 +72,14 @@ button:hover {
   color: white !important;
 }
 
+.btn-outline-success {
+  --bs-btn-color: #00727a;
+  --bs-btn-border-color: #00727a;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #00727a;
+  --bs-btn-hover-border-color: white;
+}
+
 .list-group-item-action:hover{
   color: black !important;
   opacity: 0.6;

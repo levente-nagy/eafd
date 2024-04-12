@@ -48,7 +48,7 @@ function NavBar({ brandName, navItems }: NavBarProps) {
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-white shadow">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <div className="navbar-brand" >
           <img
             src="/logo96.png"
             width="60"
@@ -56,8 +56,9 @@ function NavBar({ brandName, navItems }: NavBarProps) {
             className="d-inline-block align-center navbar_logo"
             alt=""
           />
-          <span className="fw-bolder fs-4">{brandName}</span>
-        </a>
+          <span className="fw-bolder fs-6 brand_name" >{brandName}</span>
+        </div>
+        
         <button
           className="navbar-toggler"
           type="button"

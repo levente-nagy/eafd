@@ -1,0 +1,78 @@
+/* custom.css */
+.navbar-nav .nav-item .nav-link:hover {
+  color: #00727a; /* Change to your desired text color on hover */
+  font-weight: bold;
+  /* Change to your desired background color on hover */
+  
+  /* Add any other styling you want for the hover effect */
+}
+
+.nav-link {
+  border-radius: 0.3rem;
+}
+
+.navbar{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    
+}
+.navbar_logo{
+  margin: 5px;
+}
+
+@media (max-width: 800px){
+  .item_text {
+    margin-left: 10px;
+}
+
+}
+
+
+@media (min-width: 1024px){
+
+
+.navbar-brand {
+  padding-right: 40px;
+}
+}
+
+.navbar{
+  padding: 0 !important;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+  padding-left: 0;
+}
+
+.form-control:focus
+{
+  box-shadow: 0 0 0 0.1rem #018b95 !important;
+}
+
+#root{
+  width: 100%;
+}
+
+a:hover {
+  color: #00727a !important;
+}
+
+button:hover {
+  border-color: transparent !important;
+  color:white !important;
+}
+.btn-outline-success:hover{
+  color: white !important;
+}
+
+.list-group-item-action:hover{
+  color: black !important;
+  opacity: 0.6;
+}

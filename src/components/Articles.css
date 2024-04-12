@@ -71,7 +71,7 @@
   flex-wrap: wrap;
 }
 .all_arts {
-  height: 155vh;
+  height: 165vh;
 }
 
 }
@@ -167,7 +167,7 @@ a {
 
 
 .featured {
-  background: url('./src/assets/background home.jpg') no-repeat center center fixed; 
+  background: url('./background home.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -3,7 +3,7 @@ function Article2() {
     <div>
       <div className="article">
         <br />
-        <h1>Basic financial rules</h1>
+        <h3>Basic financial rules</h3>
         <br />
         <br />
         <img src="/Articol2.jpg" className="article_banner" />

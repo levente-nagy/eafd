@@ -3,7 +3,12 @@ import { Link } from "react-router-dom";
 import "./Articles.css";
 
 const Home = () => (
-  <div className="featured">
+
+  <div className="featured" style={{   background: "url('./background home.jpg') no-repeat center center fixed", 
+    WebkitBackgroundSize: "cover",
+    MozBackgroundSize: "cover",
+    OBackgroundSize: "cover",
+    backgroundSize: "cover"}}>
     <ListGroup>
       <ListGroup.Item>
         <b>Topics</b>

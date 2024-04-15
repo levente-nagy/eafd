@@ -26,11 +26,11 @@ const Home = () => (
       </ListGroup.Item>
       <Link to="/Article1">
         <ListGroup.Item action>
-          General rules for cleaning the house
+          Cleaning
         </ListGroup.Item>
       </Link>
       <Link to="/Article2">
-        <ListGroup.Item action>Basic financial rules</ListGroup.Item>
+        <ListGroup.Item action>Finance</ListGroup.Item>
       </Link>
     </ListGroup>
       

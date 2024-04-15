@@ -11,11 +11,12 @@ function Articles() {
             alt="Card image cap"
           />
           <div className="card-body">
-            <h5 className="card-title">General rules for cleaning the house</h5>
+            <h5 className="card-title">Cleaning</h5>
             <p className="card-text">
               Consistency is key to keeping your home clean effortlessly. Tackle
               small tasks regularly to prevent clutter buildup and make cleaning
               easier in the long run.
+              <br />
               <br />
               <br />
             </p>
@@ -33,7 +34,7 @@ function Articles() {
             alt="Card image cap"
           />
           <div className="card-body">
-            <h5 className="card-title">Basic financial rules</h5>
+            <h5 className="card-title">Finance</h5>
             <p className="card-text">
               Transitioning from financial security to uncertainty can be
               daunting, affecting various aspects of life. To avoid frustration

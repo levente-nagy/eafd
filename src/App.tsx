@@ -33,7 +33,6 @@ function App() {
           <div>
             <NavBar
               brandName="Everyday Advice for Dummies"
-              imageSrcPath="src\assets\logo96.png"
               navItems={items}
             />
             <Routes>

@@ -23,7 +23,7 @@ Join us on this journey of learning and growth as we strive to make the world a 
         <div className="card profile1">
           <img className="avatar" src="/logo96.png" alt="Card image cap" />
           <div className="card-body">
-            <h2>Monica Mila</h2>
+            <h4>Monica Mila</h4>
             <p className="title">Content Manager</p>
             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
             <div className="social-links-about">
@@ -49,7 +49,7 @@ Join us on this journey of learning and growth as we strive to make the world a 
         <div className="card profile2">
           <img className="avatar" src="/avatar_Cosmin.jpg" alt="Card image cap" />
           <div className="card-body">
-            <h2>Cosmin Crăciun</h2>
+            <h4>Cosmin Crăciun</h4>
             <p className="title">Designer</p>
             <p>Sorcerer from the school of "What if...?". I will cast "Reveal bugs" on any application.</p>
             <div className="social-links-about">
@@ -75,7 +75,7 @@ Join us on this journey of learning and growth as we strive to make the world a 
         <div className="card profile3">
           <img className="avatar" src="/avatar_Levi.jpg" alt="Card image cap" />
           <div className="card-body">
-            <h2>Levente Nagy</h2>
+            <h4>Levente Nagy</h4>
             <p className="title">Web Developer</p>
             <p>I love cooking! My favorite ingrediens are: React, Typescript and Bootsrap.</p>
             <div className="social-links-about">

@@ -6,6 +6,7 @@
   
   /* Add any other styling you want for the hover effect */
 }
+.navbar-toggler{margin-left: 0.5rem;}
 
 .nav-link {
   border-radius: 0.3rem;
@@ -36,11 +37,20 @@
   display: flex;
   flex-wrap: inherit;
   align-items: center;
-  justify-content: flex-end !important;
+  justify-content: flex-start !important;
 }
-.navbar-collapse{
-  margin-bottom:0.5reml
+
+.me-2 {
+  margin: 0 0.5rem !important;
 }
+
+.container-fluid, .nav-link {
+  margin-bottom: 0.5rem !important;
+}
+ .nav-link {
+  margin-left: 0.5rem !important;
+}
+
 }
 
 
@@ -101,10 +111,10 @@ button:hover {
 .brand_name:hover{
   color: black !important;
 }
-.me-2 {
-  margin: 0 0.5rem !important;
-}
 
-.container-fluid {
-  margin-bottom: 0.5rem !important;
+
+.active {
+  font-weight: bold !important;
+  color: #00727a !important;
+  border: 1px solid #00727a;
 }

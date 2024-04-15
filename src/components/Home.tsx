@@ -1,15 +1,26 @@
-import { Carousel, ListGroup } from "react-bootstrap";
+import { ListGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Articles.css";
 
 const Home = () => (
 
-  <div className="featured" style={{   background: "url('./background home.jpg') no-repeat center center fixed", 
-    WebkitBackgroundSize: "cover",
-    MozBackgroundSize: "cover",
-    OBackgroundSize: "cover",
-    backgroundSize: "cover"}}>
-    <ListGroup>
+  <div className="featured">
+<div className="baner">
+<img
+          className="banner_home"
+          src="/banner_home.jpg"
+         
+        />
+          <Link to="/about-us" className="btn btn-outline-success more">
+              Learn more...
+            </Link>
+          </div>
+    
+
+<br />
+    <br />
+
+<ListGroup>
       <ListGroup.Item>
         <b>Topics</b>
       </ListGroup.Item>
@@ -22,24 +33,7 @@ const Home = () => (
         <ListGroup.Item action>Basic financial rules</ListGroup.Item>
       </Link>
     </ListGroup>
-    <br />
-    <br />
-    <Carousel data-bs-theme="dark" slide={false}>
-      <Carousel.Item>
-        <img
-          className="article_banner"
-          src="/Articol1.jpg"
-          alt="Card image cap"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="article_banner"
-          src="/Articol2.jpg"
-          alt="Card image cap"
-        />
-      </Carousel.Item>
-    </Carousel>
+      
   </div>
 );
 

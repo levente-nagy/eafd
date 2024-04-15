@@ -1,9 +1,8 @@
 import { useState, useRef, SetStateAction } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink  } from "react-router-dom";
 
 interface NavBarProps {
   brandName: string;
-  imageSrcPath: string;
   navItems: string[];
 }
 
@@ -76,7 +75,7 @@ function NavBar({ brandName, navItems }: NavBarProps) {
           <ul className="navbar-nav me-auto mb-2 mb-md-1">
             {navItems.map((items, index) => (
               <li key={items} className="nav-item">
-                <Link
+                <NavLink
                   className={
                     selectedIndex === index ? "nav-link active" : "nav-link"
                   }
@@ -84,7 +83,7 @@ function NavBar({ brandName, navItems }: NavBarProps) {
                   onClick={() => handleLinkClick(index)}
                 >
                   <div className="item_text">{items}</div>
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>

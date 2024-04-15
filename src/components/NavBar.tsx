@@ -22,7 +22,6 @@ function NavBar({ brandName, navItems }: NavBarProps) {
 
   const handleSearchSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    // Perform search among articles based on searchQuery
     let foundArticle: string | null = null;
     const lowerCaseSearchQuery = searchQuery.toLowerCase();
     const articles = [
@@ -37,10 +36,8 @@ function NavBar({ brandName, navItems }: NavBarProps) {
       }
     }
     if (foundArticle) {
-      // Navigate to the found article
       window.location.href = `/${foundArticle}`;
     } else {
-      // Handle case when article is not found
       alert("Article not found!");
     }
   };

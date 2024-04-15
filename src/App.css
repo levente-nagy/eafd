@@ -36,7 +36,10 @@
   display: flex;
   flex-wrap: inherit;
   align-items: center;
-  justify-content: center !important;
+  justify-content: flex-end !important;
+}
+.navbar-collapse{
+  margin-bottom:0.5reml
 }
 }
 
@@ -97,4 +100,11 @@ button:hover {
 }
 .brand_name:hover{
   color: black !important;
+}
+.me-2 {
+  margin: 0 0.5rem !important;
+}
+
+.container-fluid {
+  margin-bottom: 0.5rem !important;
 }

@@ -20,7 +20,7 @@ function Articles() {
               <br />
               <br />
             </p>
-            <Link to="/article1" className="btn btn-outline-success">
+            <Link to="/cleaning" className="btn btn-outline-success">
               Go to article
             </Link>
           </div>
@@ -41,7 +41,27 @@ function Articles() {
               and panic, it's crucial to grasp simple concepts for managing
               finances effectively, enabling focus on other life aspects.
             </p>
-            <Link to="/article2" className="btn btn-outline-success">
+            <Link to="/finance" className="btn btn-outline-success">
+              Go to article
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="art">
+        <div className="card ca">
+          <img
+            className="card-img-top"
+            src="/Tech.jpg"
+            alt="Card image cap"
+          />
+          <div className="card-body">
+            <h5 className="card-title">Technology</h5>
+            <p className="card-text">
+            Technology offers vast potential for positive change but can be overwhelming for newcomers. With some simple tips, anyone can quickly get up to speed and start enjoying the benefits of their devices.
+            <br/>
+            <br/>
+            </p>
+            <Link to="/technology" className="btn btn-outline-success">
               Go to article
             </Link>
           </div>

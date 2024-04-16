@@ -2,8 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Articles from "./components/Articles";
-import Article1 from "./components/pages/Article1";
-import Article2 from "./components/pages/Article2";
+import Cleaning from "./components/pages/Cleaning";
+import Finance from "./components/pages/Finance";
+import Technology from "./components/pages/Technology";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
 import Help from "./components/Help";
@@ -39,8 +40,9 @@ function App() {
               <Route index element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/articles" element={<Articles />} />
-              <Route path="/article1" element={<Article1 />} />
-              <Route path="/article2" element={<Article2 />} />
+              <Route path="/cleaning" element={<Cleaning />} />
+              <Route path="/finance" element={<Finance />} />
+              <Route path="/technology" element={<Technology />} />
               <Route path="/about-us" element={<AboutUs />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/help" element={<Help />} />

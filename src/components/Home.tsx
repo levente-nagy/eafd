@@ -24,13 +24,14 @@ const Home = () => (
       <ListGroup.Item>
         <b>Topics</b>
       </ListGroup.Item>
-      <Link to="/Article1">
-        <ListGroup.Item action>
-          Cleaning
-        </ListGroup.Item>
+      <Link to="/cleaning">
+        <ListGroup.Item action>Cleaning</ListGroup.Item>
       </Link>
-      <Link to="/Article2">
+      <Link to="/finance">
         <ListGroup.Item action>Finance</ListGroup.Item>
+      </Link>
+      <Link to="/technology">
+        <ListGroup.Item action>Technology</ListGroup.Item>
       </Link>
     </ListGroup>
       

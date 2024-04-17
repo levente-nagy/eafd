@@ -25,7 +25,7 @@ const Home = () => (
 
 <ListGroup>
       <ListGroup.Item>
-        <b>Topics</b>
+        <h5 className="list_header"><b>Topics</b></h5>
       </ListGroup.Item>
       <Link to="/cleaning">
         <ListGroup.Item action>Cleaning</ListGroup.Item>

@@ -105,8 +105,8 @@ button:hover {
 }
 
 .list-group-item-action:hover{
-  color: black !important;
-  opacity: 0.6;
+  color: #00727a !important;
+  font-weight: bold;;
 }
 .brand_name:hover{
   color: black !important;

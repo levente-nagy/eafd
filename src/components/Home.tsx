@@ -5,27 +5,14 @@ import "./Articles.css";
 
 const Home = () => (
 
+  
   <div className="featured">
-<div className="baner">
-<h5>Fast lane if life goes weird and you need a hint that is manageable.</h5>
-<br/>
-<div className="video-container">
-  <YouTube videoId="3U82Ao5eb8g" />
-</div>
-<br/>
 
-          <Link to="/about-us" className="btn btn-outline-success more">
-              Learn more...
-            </Link>
-          </div>
     
-
-<br />
-    <br />
 
 <ListGroup>
       <ListGroup.Item>
-        <h5 className="list_header"><b>Topics</b></h5>
+        <b>Topics</b>
       </ListGroup.Item>
       <Link to="/cleaning">
         <ListGroup.Item action>Cleaning</ListGroup.Item>
@@ -40,6 +27,22 @@ const Home = () => (
         <ListGroup.Item action>Travel</ListGroup.Item>
       </Link>
     </ListGroup>
+    
+<br />
+    <br />
+
+    <div className="baner">
+<h5>Fast lane if life goes weird and you need a hint that is manageable.</h5>
+<br/>
+<div className="video-container">
+  <YouTube videoId="3U82Ao5eb8g" />
+</div>
+<br/>
+
+          <Link to="/about-us" className="btn btn-outline-success more">
+              Learn more...
+            </Link>
+          </div>
       
   </div>
 );

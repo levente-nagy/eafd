@@ -25,8 +25,11 @@ function NavBar({ brandName, navItems }: NavBarProps) {
     const lowerCaseSearchQuery = searchQuery.toLowerCase();
     const articles = [
       { name: "Cleaning", route: "cleaning" },
+      { name: "Cooking", route: "cooking" },
       { name: "Finance", route: "finance" },
+      { name: "Health", route: "health" },
       { name: "Technology", route: "technology" },
+      { name: "Time", route: "time" },
       { name: "Travel", route: "travel" },
     ];
     for (let i = 0; i < articles.length; i++) {

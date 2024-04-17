@@ -2,24 +2,41 @@ import { FC } from "react";
 
 const Help: FC = () => (
   <div className="help">
-    <p>Welcome to our website! Here are some tips to help you navigate:</p>
-    <ul>
-      <li>Home: Click on this to return to the homepage at any time.</li>
-      <li>Articles: Click on this to see all our articles.</li>
-      <li>About Us: Learn more about our company and what we do.</li>
-      <li>
-        Contact: If you have any questions, feel free to reach out to us here.
-      </li>
-      <li>Help: You are here.</li>
-      <li>Search: Search for articles by keyword</li>
-      <li>
-        Scroll to top: Click on the arrow button on the right side to scroll
-        back to the top of the page.
-      </li>
-      <li>Footer: You can find all our social media links.</li>
-    </ul>
+    <div className="help-header">
+      
+Welcome to Everyday Advice for Dummies! This page aims to guide you through the features and usage of our website.  
 
-    <p>Thank you for visiting our website! Have a great day!</p>
+<br/><br/><br/>
+Getting Started 
+<br/><br/>
+1. Navigation 
+<br/><br/>
+<b>Home</b>: The Home page is the starting point of our website, providing an overview of featured articles and topics. 
+<br/><br/>
+<b>Articles</b>: Explore different categories such as house cleaning, finance, travel and more, to find relevant advice. 
+<br/><br/>
+<b>Search</b>: Use the search bar to quickly locate articles based on keywords or topics of interest. 
+<br/><br/>
+<b>Contact</b>: If you have any specific questions or encounter issues not covered here, please feel free to contact our support team by using  the Contact form available to you. 
+<br/><br/>
+<b>About Us</b>: Come and find out what is our company's background, history, and mission. Also you can view  more information related to our team members. 
+<br/><br/>
+<b>Help</b>: The page you are currently on is meant to offer a quick guide on how and what you can find on our website and improve your browsing experience. 
+<br/><br/><br/>
+2. Reading Articles 
+<br/><br/>
+Clicking on an Article: To read an article, simply click on its title from the homepage or category page. 
+<br/><br/>
+Navigating Within an Article: Scroll down to read the entire article. In order to <b>Scroll to Top</b> simply use the Up arrow on the bottom right side of the screen. On each page in the <b>Footer</b> you can find our social media links. 
+<br/><br/><br/>
+3. Saving for Later 
+<br/><br/>
+Want to revisit an article? Click the bookmark icon to save it to your profile for future reference. 
+<br/><br/><br/>
+ 
+
+We hope that you will find all the useful information you desire. Thank you for visiting our website! Have a great day! 
+  </div>
   </div>
 );
 

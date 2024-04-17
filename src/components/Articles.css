@@ -57,14 +57,20 @@
 .subarticle, .featured{
  flex-direction: row;
 }
-.featured, .about, .contact_wrapper, .help {
+.featured, .about, .contact_wrapper {
   height: 95vh;
+}
+
+ .help {
+  height: 110vh;
 }
 
 .all_arts {
   height: 230vh;
   padding: 100px 180px;
 }
+
+
 
 .about{
   flex-wrap: nowrap;
@@ -226,7 +232,7 @@ max-width: 100%;
 
 .help{
   display: flex;
-  padding: 120px 65px;
+  padding: 120px 300px;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;

@@ -8,11 +8,11 @@ const Home = () => (
   <div className="featured">
 <div className="baner">
 <h5>Fast lane if life goes weird and you need a hint that is manageable.</h5>
-
+<br/>
 <div className="video-container">
   <YouTube videoId="3U82Ao5eb8g" />
 </div>
-
+<br/>
 
           <Link to="/about-us" className="btn btn-outline-success more">
               Learn more...

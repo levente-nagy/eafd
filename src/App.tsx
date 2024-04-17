@@ -15,6 +15,8 @@ import Help from "./components/Help";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.css";
+import ScrollToTop from "./components/ScrollToTop";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -35,12 +37,14 @@ function App() {
     <>
       <Fragment>
         <BrowserRouter>
+        <ScrollToTop />
           <div>
             <NavBar
               brandName="Everyday Advice for Dummies"
               navItems={items}
             />
             <Routes>
+             
               <Route index element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/articles" element={<Articles />} />

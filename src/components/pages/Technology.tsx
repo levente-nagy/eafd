@@ -1,3 +1,5 @@
+import Carousel from 'react-bootstrap/Carousel';
+
 function Technology() {
     return (
       <div>
@@ -6,7 +8,20 @@ function Technology() {
           <h3>Technology</h3>
           <br />
       
-          <img src="/Tech.jpg" className="article_banner" />
+          <Carousel slide={false} >
+      <Carousel.Item>
+        <img src="/Tech1.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Tech2.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Tech3.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Tech4.jpg" className="article_banner" />
+      </Carousel.Item>
+    </Carousel>
           <br />
           <br />
           <br />

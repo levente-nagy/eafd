@@ -1,3 +1,5 @@
+import Carousel from 'react-bootstrap/Carousel';
+
 function Travel() {
     return (
       <div>
@@ -6,7 +8,26 @@ function Travel() {
           <h3>Travel</h3>
           <br />
          
-          <img src="/Travel.jpg" className="article_banner" />
+          <Carousel slide={false}>
+      <Carousel.Item>
+        <img src="/Travel1.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Travel2.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Travel3c.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Travel4.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Travel5.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Travel6.jpg" className="article_banner" />
+      </Carousel.Item>
+    </Carousel>
           <br />
           <br />
           <br />

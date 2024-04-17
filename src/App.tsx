@@ -3,8 +3,11 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Articles from "./components/Articles";
 import Cleaning from "./components/pages/Cleaning";
+import Cooking from "./components/pages/Cooking";
 import Finance from "./components/pages/Finance";
+import Health from "./components/pages/Health";
 import Technology from "./components/pages/Technology";
+import Time from "./components/pages/Time";
 import Travel from "./components/pages/Travel";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
@@ -42,8 +45,11 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/articles" element={<Articles />} />
               <Route path="/cleaning" element={<Cleaning />} />
+              <Route path="/cooking" element={<Cooking />} />
               <Route path="/finance" element={<Finance />} />
+              <Route path="/health" element={<Health />} />
               <Route path="/technology" element={<Technology />} />
+              <Route path="/time" element={<Time />} />
               <Route path="/travel" element={<Travel />} />
               <Route path="/about-us" element={<AboutUs />} />
               <Route path="/contact" element={<Contact />} />

@@ -39,7 +39,7 @@
 }
 
 .all_arts{
-  height: 220vh;
+  height: 400vh;
   padding: 100px 50px;
 }
 .featured{
@@ -62,7 +62,7 @@
 }
 
 .all_arts {
-  height: 140vh;
+  height: 230vh;
   padding: 100px 180px;
 }
 
@@ -252,4 +252,8 @@ max-width: 100%;
 .video-container iframe {
   max-width: 100%;
   max-height: 100%;
+}
+
+.carousel {
+  width: 30rem;
 }

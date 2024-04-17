@@ -56,7 +56,7 @@ Join us on this journey of learning and growth as we strive to make the world a 
           <div className="card-body">
             <h4>Cosmin Crăciun</h4>
             <p className="title">Designer</p>
-            <p>Sorcerer from the school of "What if...?". I will cast "Reveal bugs" on any application.</p>
+            <p>Wizard from the school of "What if...?". I will cast "Reveal bugs" on any application.</p>
             <div className="social-links-about">
           <a
             href="https://www.linkedin.com"

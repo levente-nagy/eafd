@@ -1,3 +1,5 @@
+import Carousel from 'react-bootstrap/Carousel';
+
 function Finance() {
   return (
     <div>
@@ -6,7 +8,20 @@ function Finance() {
         <h3>Finance</h3>
         <br />
         
-        <img src="/Articol2.jpg" className="article_banner" />
+        <Carousel slide={false} >
+      <Carousel.Item>
+        <img src="/Finance1.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Finance2.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Finance3.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Finance4c.jpg" className="article_banner" />
+      </Carousel.Item>
+    </Carousel>
         <br />
         <br />
         <br />
@@ -33,7 +48,7 @@ function Finance() {
         <br /> <br />
         <h5>Learn to budget</h5>
         <div className="subarticle">
-          <img src="/Articol 2.1.jpg" className="article_photo" />
+          <img src="/Finance1.jpg" className="article_photo" />
           Never let your expenses exceed your income sound like an easy thing to
           do, but can proof to be one of the hardest to achieve if you don’t pay
           attention to it.
@@ -73,7 +88,7 @@ function Finance() {
         <h5>Educate yourself</h5>
         <div className="subarticle">
           <br />
-          <img src="/Articol 2.2.jpg" className="article_photo" />
+          <img src="/Finance2.jpg" className="article_photo" />
           You learned to walk, wash yourself, speak, drive a car, how to do a
           job that is assuring your income. In the same way, you should learn
           how to take care of your money and what are/ can be the consequences
@@ -99,7 +114,7 @@ function Finance() {
         <br />
         <h5>Control credit</h5>
         <div className="subarticle">
-          <img src="/Articol 2.3.jpg" className="article_photo" />
+          <img src="/Finance3.jpg" className="article_photo" />
           Exercise patience and self-control when you want to spend. Don’t start
           your life with big loans, because it will proof to be a burden that
           you don’t need at beginning of your life. Better to save money for
@@ -119,7 +134,7 @@ function Finance() {
         <h5>Start an emergency fond</h5>
         <div className="subarticle">
           <br />
-          <img src="/Articol 2.4.jpg" className="article_photo" />
+          <img src="/Finance4.jpg" className="article_photo" />
           Enjoy every day, prepare for a great future, but don’t be an ignorant
           please: don’t ignore that bad things can happen. Nobody wishes that,
           but you can get ill, your car can break, you can lose your job. Any of

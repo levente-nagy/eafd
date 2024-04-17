@@ -1,3 +1,5 @@
+import Carousel from 'react-bootstrap/Carousel';
+
 function Cleaning() {
   return (
     <div>
@@ -5,8 +7,24 @@ function Cleaning() {
         <br />
         <h3>Cleaning</h3>
         <br />
-        
-        <img src="/Articol1.jpg" className="article_banner" />
+        <Carousel slide={false}>
+      <Carousel.Item>
+        <img src="/Cleaning1.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Cleaning2.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Cleaning3.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Cleaning4.jpg" className="article_banner" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="/Cleaning5c.jpg" className="article_banner" />
+      </Carousel.Item>
+    </Carousel>
+ 
         <br />
         <br />
         <br />
@@ -35,7 +53,7 @@ function Cleaning() {
         <br /> <br />
         <h5>Declutter</h5>
         <div className="subarticle">
-          <img src="/Articol 1.1.jpg" className="article_photo" />
+          <img src="/Cleaning1.jpg" className="article_photo" />
           Before starting anything else, take your time and pick up all the
           clutter. Organize all items in the designated place (if you don’t have
           one, it’s a good idea to start defining a clear place in the house for
@@ -53,7 +71,7 @@ function Cleaning() {
         <h5>Face the omnipresent dust like you mean it</h5>
         <div className="subarticle">
           <br />
-          <img src="/Articol 1.2.jpg" className="article_photo" />
+          <img src="/Cleaning2.jpg" className="article_photo" />
           Start cleaning from top. Either to gather the cobwebs, either you
           dust, every time start from top. Otherwise, if you reach to an upper
           spot after cleaning below it, you risk to get things dropping and
@@ -78,7 +96,7 @@ function Cleaning() {
         <br />
         <h5>Vacuum/ sweep floors</h5>
         <div className="subarticle">
-          <img src="/Articol 1.3.jpg" className="article_photo" />
+          <img src="/Cleaning3.jpg" className="article_photo" />
           Use your broom to clean hard surfaces. (no, is not for Harry Potter
           only!) Take care to sweep also under furniture. Start from one corner
           and set a direction in such a way to be sure you cover complete room.
@@ -96,7 +114,7 @@ function Cleaning() {
         <h5>Mop</h5>
         <div className="subarticle">
           <br />
-          <img src="/Articol 1.4.jpg" className="article_photo" />
+          <img src="/Cleaning4.jpg" className="article_photo" />
           Same like for cleaning windows, all people you know will have a
           different advice for what item to use when mopping. Stay in the middle
           range of price and you’ll be good.
@@ -111,7 +129,7 @@ function Cleaning() {
         <h5>Clean windows and mirrors</h5>
         <div className="subarticle">
           <br />
-          <img src="/Articol 1.5.jpg" className="article_photo" />
+          <img src="/Cleaning5.jpg" className="article_photo" />
           Use one damp moist cloth, followed by one dry cloth, to wipe clean all
           the mirrors and glass surfaces.
           <br />

@@ -17,11 +17,20 @@ const Home = () => (
       <Link to="/cleaning">
         <ListGroup.Item action>Cleaning</ListGroup.Item>
       </Link>
+      <Link to="/cooking">
+        <ListGroup.Item action>Cooking</ListGroup.Item>
+      </Link>
       <Link to="/finance">
         <ListGroup.Item action>Finance</ListGroup.Item>
       </Link>
+      <Link to="/health">
+        <ListGroup.Item action>Health</ListGroup.Item>
+      </Link>
       <Link to="/technology">
         <ListGroup.Item action>Technology</ListGroup.Item>
+      </Link>
+      <Link to="/time">
+        <ListGroup.Item action>Time</ListGroup.Item>
       </Link>
       <Link to="/travel">
         <ListGroup.Item action>Travel</ListGroup.Item>

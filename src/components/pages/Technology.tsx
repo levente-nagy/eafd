@@ -1,4 +1,4 @@
-function Article2() {
+function Technology() {
     return (
       <div>
         <div className="article">
@@ -63,5 +63,5 @@ function Article2() {
     );
   }
   
-  export default Article2;
+  export default Technology;
   

@@ -1,4 +1,4 @@
-function Article2() {
+function Finance() {
   return (
     <div>
       <div className="article">
@@ -144,4 +144,4 @@ function Article2() {
   );
 }
 
-export default Article2;
+export default Finance;

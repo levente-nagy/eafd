@@ -1,4 +1,4 @@
-function Article1() {
+function Cleaning() {
   return (
     <div>
       <div className="article">
@@ -129,4 +129,4 @@ function Article1() {
   );
 }
 
-export default Article1;
+export default Cleaning;

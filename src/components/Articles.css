@@ -4,7 +4,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 100px 65px;
+
+}
+
+.all_arts{
+  padding: 100px 50px;
 }
 
 .art{
@@ -12,7 +16,7 @@
   padding: 10px;
 }
 .ca{
-  width: 20rem;
+  width: 30rem;
   height: 30rem !important;
 }
 
@@ -30,10 +34,13 @@
  flex-direction: row;
 }
 
-
-
-.all_arts, .about{
+ .about{
   height: 170vh;
+}
+
+.all_arts{
+  height: 220vh;
+  padding: 100px 50px;
 }
 .featured{
   height: 120vh;
@@ -50,9 +57,15 @@
 .subarticle, .featured{
  flex-direction: row;
 }
-.featured,.all_arts, .about, .contact_wrapper, .help {
+.featured, .about, .contact_wrapper, .help {
   height: 95vh;
 }
+
+.all_arts {
+  height: 140vh;
+  padding: 100px 180px;
+}
+
 .about{
   flex-wrap: nowrap;
   }
@@ -95,7 +108,8 @@
 }
 .banner_home{
   max-width: 100%;
-  width: 30rem;
+  width: 20rem;
+  text-align: center;
 }
 
 .article_photo
@@ -219,6 +233,7 @@ max-width: 100%;
 }
 
 .baner{
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -231,4 +246,10 @@ max-width: 100%;
     --bs-btn-color: black !important;
     --bs-btn-border-color: black !important;
     --bs-btn-hover-color: #fff !important;
+}
+
+
+.video-container iframe {
+  max-width: 100%;
+  max-height: 100%;
 }

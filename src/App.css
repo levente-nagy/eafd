@@ -118,3 +118,7 @@ button:hover {
   color: #00727a !important;
 
 }
+
+.card{
+  --bs-card-border-color: none;
+}

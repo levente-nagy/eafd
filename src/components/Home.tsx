@@ -1,16 +1,19 @@
 import { ListGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import YouTube from 'react-youtube';
 import "./Articles.css";
 
 const Home = () => (
 
   <div className="featured">
 <div className="baner">
-<img
-          className="banner_home"
-          src="/banner_home.jpg"
-         
-        />
+<h5>Fast lane if life goes weird and you need a hint that is manageable.</h5>
+
+<div className="video-container">
+  <YouTube videoId="3U82Ao5eb8g" />
+</div>
+
+
           <Link to="/about-us" className="btn btn-outline-success more">
               Learn more...
             </Link>
@@ -32,6 +35,9 @@ const Home = () => (
       </Link>
       <Link to="/technology">
         <ListGroup.Item action>Technology</ListGroup.Item>
+      </Link>
+      <Link to="/travel">
+        <ListGroup.Item action>Travel</ListGroup.Item>
       </Link>
     </ListGroup>
       

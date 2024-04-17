@@ -5,7 +5,7 @@ function Finance() {
         <br />
         <h3>Finance</h3>
         <br />
-        <br />
+        
         <img src="/Articol2.jpg" className="article_banner" />
         <br />
         <br />

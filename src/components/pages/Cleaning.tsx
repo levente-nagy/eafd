@@ -5,7 +5,7 @@ function Cleaning() {
         <br />
         <h3>Cleaning</h3>
         <br />
-        <br />
+        
         <img src="/Articol1.jpg" className="article_banner" />
         <br />
         <br />

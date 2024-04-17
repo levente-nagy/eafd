@@ -5,7 +5,7 @@ function Technology() {
           <br />
           <h3>Technology</h3>
           <br />
-          <br />
+      
           <img src="/Tech.jpg" className="article_banner" />
           <br />
           <br />

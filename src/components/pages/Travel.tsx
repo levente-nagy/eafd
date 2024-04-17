@@ -5,7 +5,7 @@ function Travel() {
           <br />
           <h3>Travel</h3>
           <br />
-          <br />
+         
           <img src="/Travel.jpg" className="article_banner" />
           <br />
           <br />

@@ -189,7 +189,7 @@ a {
 
 
 .list-group{
-width: 30rem;
+width: 20rem;
 max-width: 100%;
 }
 
@@ -233,7 +233,7 @@ max-width: 100%;
 }
 
 .baner{
-  padding: 20px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

@@ -16,6 +16,12 @@ function Contact() {
     return phoneNumberPattern.test(inputPhone.valueOf());
   }
 
+  function isValidEmail(email: string): boolean {
+    // Regular expression for a valid email format
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(email);
+  }
+
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     setIsSubmitted(true);
@@ -45,6 +51,19 @@ function Contact() {
         nameInput.setCustomValidity("");
       }
     }
+
+    // Perform email validation when the email input changes
+  if (id === "email") {
+    const emailInput = document.getElementById("email") as HTMLInputElement;
+    if (value === "") {
+      emailInput.setCustomValidity("Please fill out this field.");
+    } else if (!isValidEmail(value)) {
+      emailInput.setCustomValidity("Please enter a valid email address.");
+    } else {
+      emailInput.setCustomValidity("");
+    }
+  }
+
   
     // Perform phone number validation when the phone input changes
     if (id === "phone") {
@@ -139,15 +158,15 @@ onSubmit={(e) => {
               Email
             </label>
             <div className="col-sm-10">
-              <input
-                type="email"
-                className="form-control contact"
-                id="email"
-                placeholder="example@example.com"
-                value={formData.email}
-                onChange={handleChange}
-                required
-              />
+            <input
+  type="email"
+  className="form-control contact"
+  id="email" // Updated ID
+  placeholder="example@example.com"
+  value={formData.email}
+  onChange={handleChange}
+  
+/>
             </div>
           </div>
 

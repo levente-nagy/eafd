@@ -107,7 +107,7 @@ padding: 0px !important;
  .about{
   height: 310vh;
   flex-wrap: wrap;
-  padding: 40px 30px 20px 30px !important;
+  padding: 40px 30px 0px 30px !important;
 }
 .all_arts {
   height: 460vh;

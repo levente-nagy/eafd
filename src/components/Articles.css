@@ -139,7 +139,9 @@ padding: 0px !important;
 .card-body{
   padding:10px !important;
 }
-
+.help {
+  padding: 100px 50px !important;
+}
 }
 
 

@@ -109,7 +109,8 @@ padding: 0px !important;
   flex-wrap: wrap;
 }
 .all_arts {
-  height: 165vh;
+  height: 460vh;
+  padding: 60px 50px !important;
 }
 
 .video-container iframe {
@@ -129,7 +130,14 @@ padding: 0px !important;
 .fs-6 {
   font-size: 0.9rem !important;
 }
+.ca {
+  width: 18rem !important;
+  height: auto !important;
+}
 
+.card-body{
+  padding:10px !important;
+}
 
 }
 

@@ -90,7 +90,7 @@
   flex-direction: column;
  }
  .featured {
-  height: 130vh;
+  height: 120vh;
   padding: 20px 40px !important;
 }
 .baner{
@@ -98,7 +98,7 @@ padding: 0px !important;
 }
 
 .list-group {
-  padding-top: 100px !important;}
+  padding-top: 10px !important;}
 
 .profile1, .profile2, .profile3{
   display: flex;
@@ -115,6 +115,22 @@ padding: 0px !important;
 .video-container iframe {
   max-height: 150px !important;
 }
+
+.navbar_logo{
+  max-width: 50px !important;
+  height: auto !important;
+ 
+}
+
+.navbar-brand{
+  margin-right: 0px !important;
+}
+
+.fs-6 {
+  font-size: 0.9rem !important;
+}
+
+
 }
 
 

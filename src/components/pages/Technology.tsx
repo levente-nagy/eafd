@@ -22,7 +22,7 @@ function Technology() {
       <img src="/Tech4.jpg" className="article_banner" />
       </Carousel.Item>
     </Carousel>
-          <br />
+          
           <br />
           <br />
           <b>Summary</b>

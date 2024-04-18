@@ -22,7 +22,7 @@ function Finance() {
       <img src="/Finance4c.jpg" className="article_banner" />
       </Carousel.Item>
     </Carousel>
-        <br />
+        
         <br />
         <br />
         <b>Summary</b>

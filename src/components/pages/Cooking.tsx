@@ -28,7 +28,7 @@ function Cooking() {
       </Carousel.Item>
     </Carousel>
  
-        <br />
+        
         <br />
         <br />
         <b>Summary</b>

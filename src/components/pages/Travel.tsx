@@ -28,7 +28,7 @@ function Travel() {
       <img src="/Travel6.jpg" className="article_banner" />
       </Carousel.Item>
     </Carousel>
-          <br />
+          
           <br />
           <br />
           <b>Summary</b>

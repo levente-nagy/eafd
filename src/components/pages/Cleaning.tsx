@@ -25,7 +25,7 @@ function Cleaning() {
       </Carousel.Item>
     </Carousel>
  
-        <br />
+        
         <br />
         <br />
         <b>Summary</b>

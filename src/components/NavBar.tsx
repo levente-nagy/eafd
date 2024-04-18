@@ -21,6 +21,9 @@ function NavBar({ brandName, navItems }: NavBarProps) {
 
   const handleSearchSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    if (!searchQuery.trim()) {
+      return;
+    }
     let foundArticle: string | null = null;
     const lowerCaseSearchQuery = searchQuery.toLowerCase();
     const articles = [
